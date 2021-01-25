@@ -19,7 +19,6 @@ set showcmd
 set nu			  " =number, show line number
 set cursorline
 set showmatch " show matching bracket
-
 set background=dark	" another is 'light'
 
 syntax on
@@ -60,6 +59,10 @@ set backup		" keep a backup file
 " set textwidth=78
 set viminfo='20,\"50	" read/write a .viminfo file, don't store more
 set autochdir
+
+" Split more naturally
+set splitbelow
+set splitright
 
 " VIM 6.0,
 if version >= 600
@@ -104,7 +107,7 @@ end
 " au BufRead /tmp/crontab* :set backupcopy=yes
 
 " Colorscheme
-colorscheme fantasy
+colorscheme srcery
 
 " My key mapping
 
@@ -122,6 +125,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'srcery-colors/srcery-vim'
 call plug#end()
 
 " NERDTree configuration
