@@ -1,6 +1,6 @@
-[user]
+[user] # Place your user info here
   name = Heng Lee
-  email = b04902064@ntu.edu.tw
+  email = henliumlee@gmail.com
   username = henlium
 [alias]
   a = add

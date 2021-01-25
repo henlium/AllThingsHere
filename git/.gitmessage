@@ -1,10 +1,10 @@
 ########50 characters############################
-feat: 
-fix: 
-refactor: 
-docs: 
-sytle: 
-
+:sparkles:  # Introduce new features.
+:bug:       # Fix a bug.
+:recycle:   # Refactor code. 
+:memo:      # Add or update documentation. 
+ 
+# Refer to https://gitmoji.dev for other types of commit
 
 ########72 characters##################################################
 Problem:
@@ -17,3 +17,5 @@ Solution:
 
 Note:
 # Special instructions, testing steps, rake, etc
+
+
